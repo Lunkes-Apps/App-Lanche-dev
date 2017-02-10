@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff6400</color>
+    <color name="colorPrimaryDark">#ff6400</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorText">#faffffff</color>
+    <color name="colorTextBlack">#fa000000</color>
+    <color name="slideMenu">#e6ff6400</color>
+    <color name="backgraund_app">#de000000</color>
+    <color name="backgraund_item">#77a6ac01</color>
+    <color name="transparente_button">#3dffffff</color>
+    <color name="transparente_mensagem">#c3ffffff</color>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/backgraund_app"
+    tools:context="com.alexandrelunkes.modelolanche.MainActivity">
+
+    <TextView
+        android:padding="10dp"
+        android:textColor="@color/colorText"
+        android:textSize="22sp"
+        android:background="@drawable/button_background_off"
+        android:id="@+id/mesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mesa:" />
+
+    <com.alexandrelunkes.modelolanche.Itens.BotaoCardapio
+        android:id="@+id/chamar"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorText"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:text="@string/chamar_garcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <ListView
+       android:layout_marginBottom="10dp"
+       android:layout_above="@+id/linear"
+       android:layout_marginTop="10dp"
+       android:background="@drawable/button_background_off"
+       android:layout_below="@id/mesa"
+       android:id="@+id/itens"
+       android:padding="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:id="@+id/linear"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="10dp"
+            android:textColor="@color/colorText"
+            android:textSize="22sp"
+            android:background="@drawable/button_background_off"
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total:" />
+
+        <com.alexandrelunkes.modelolanche.Itens.BotaoCardapio
+            android:id="@+id/bt_finalizar"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/colorText"
+            android:padding="10dp"
+            android:textSize="22sp"
+            android:text="@string/fim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

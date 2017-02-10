@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ModeloLanche</string>
+
+    <string name="livre">Livre</string>
+    <string name="ocupado">Ocupado</string>
+    <string name="escolhaSuaMesa">Escolha sua mesa</string>
+    <string name="mesa">Mesa</string>
+    <string name="status">Status</string>
+    <string name="localizacao">Localização</string>
+
+    <string name="comidas">Comidas</string>
+    <string name="bebidas">Bebidas</string>
+
+    <string name="totalpagar">Total:</string>
+
+    <string name="qty">Quant.</string>
+    <string name="fim">Finalizar</string>
+    <string name="pedir">Pedir</string>
+    <string name="titulo_mensagem">Atenção!</string>
+    <string name="mensagem_falta_mesa">Por gentileza, primeiro selecione uma mesa.</string>
+    <string name="mensagem_mesa_ocupada">Por gentileza, selecione uma mesa com o status "Livre"</string>
+    <string name="mensagem_scaning">Posicione o leitor no código de barra da mesa:</string>
+    <string name="chamar_garcon">Chamar Garçom</string>
+
+
+    <array name="comidas">
+
+        <item>Sanduiches</item>
+        <item>Pizzas</item>
+        <item>Grelhados</item>
+        <item>Petiscos</item>
+
+    </array>
+
+    <array name="bebidas">
+
+        <item>Sucos</item>
+        <item>Refrigerantes</item>
+        <item>Drinks</item>
+
+    </array>
+
+    <array name="Sanduiches">
+
+        <item>X-Salada</item>
+        <item>X-Tudo</item>
+        <item>Misto</item>
+        <item>Hot-Dog</item>
+
+    </array>
+
+
+
+</resources>

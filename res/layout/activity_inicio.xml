@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/backgraund_app"
+    tools:context="com.alexandrelunkes.modelolanche.InicioActivity">
+
+    <com.alexandrelunkes.modelolanche.Itens.ViewPagerCustom
+        android:layout_above="@+id/slide"
+        android:id="@+id/pager_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.alexandrelunkes.modelolanche.Itens.ViewPagerCustom>
+
+    <com.alexandrelunkes.modelolanche.SlideMenu
+        android:layout_alignParentBottom="true"
+        android:id="@+id/slide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
